@@ -1,17 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'dart:developer' as developer;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'Application.dart';
 import 'StateHandler.dart';
 import 'Tutorial.dart';
 
 void main() async {
 
-  WidgetsFlutterBinding
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding
       .ensureInitialized(); // makes sure plugins are initialized
+  //FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
   SharedPreferences glPreferences = await SharedPreferences.getInstance();
 
@@ -19,14 +23,16 @@ void main() async {
 
   appState startState = appState.TUTORIAL;
   bool? flagTutorial = glPreferences.getBool("tutorial_completed");
-  if(flagTutorial != null || flagTutorial != false) startState = appState.MAIN;
+  if(flagTutorial != null && flagTutorial != false) startState = appState.MAIN;
 
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((value) =>
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider(
       create: (context) => StateHandler(pState: startState) ,
       lazy: false,
     )
-  ], child: MyApp()));
+  ], child: MyApp())));
 }
 
 class MyApp extends StatelessWidget {
@@ -54,7 +60,8 @@ class _HomeState extends State<_Home> {
         switch (stateHandler.state) {
           case appState.TUTORIAL:
             return const Tutorial();
-
+          case appState.MAIN:
+            return const Application();
           default:
             developer.log("Unhandled State " + stateHandler.state.toString());
             // TODO: Handle this case.

@@ -43,7 +43,7 @@ class TutorialState extends State<Tutorial>
       pagePosition--;
     if (pagePosition >= tutorialTexts.length) pagePosition = 0;
     if (pagePosition < 0) pagePosition = tutorialTexts.length-1;
-    if (pagePosition == tutorialTexts.length)
+    if (pagePosition == tutorialTexts.length - 1)
       _EndTutorialButton = getEndTutorialButton();
     else
       _EndTutorialButton = Text("");
@@ -122,7 +122,7 @@ class TutorialState extends State<Tutorial>
                 child: Padding(
                     padding: EdgeInsets.all(16.0),
                     child: DotsIndicator(
-                      dotsCount: 5,
+                      dotsCount: tutorialTexts.length,
                       position: pagePosition,
                     )),
                 height: ScreenUtil().screenHeight * .13,
