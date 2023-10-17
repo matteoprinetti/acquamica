@@ -46,6 +46,7 @@ dependencies:
   flutter_map: ^6.0.0
   latlong2: ^0.9.0
   avatar_glow: ^2.0.2
+  csv: ^5.0.2
 
 dev_dependencies:
   flutter_test:
@@ -74,6 +75,7 @@ flutter:
     - assets/sfondo.png
     - assets/splash_screen.png
     - assets/fontanelle.txt
+    - assets/images/
 
 flutter_native_splash:
 

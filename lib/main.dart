@@ -8,8 +8,12 @@ import 'dart:developer' as developer;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Application.dart';
+import 'DataBase.dart';
 import 'StateHandler.dart';
 import 'Tutorial.dart';
+
+const double STARTLAT = 43.81869;
+const double STARTLON =  7.77519;
 
 void main() async {
 
@@ -24,6 +28,13 @@ void main() async {
   appState startState = appState.TUTORIAL;
   bool? flagTutorial = glPreferences.getBool("tutorial_completed");
   if(flagTutorial != null && flagTutorial != false) startState = appState.MAIN;
+
+  // Load Database
+
+
+  await DataBase.init();
+
+  // Orientation Portrait
 
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((value) =>
