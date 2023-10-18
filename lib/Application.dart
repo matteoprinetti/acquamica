@@ -13,6 +13,7 @@ import 'package:simple_gesture_detector/simple_gesture_detector.dart';
 
 import 'DataBase.dart';
 import 'StateHandler.dart';
+import 'TopCard.dart';
 import 'main.dart';
 import 'dart:developer' as developer;
 
@@ -30,16 +31,16 @@ class ApplicationState extends State<Application>
     super.initState();
   }
 
-  Widget getAssetImage(String path)  {
+  Widget getAssetImage(String path) {
     try {
       rootBundle.load(path);
       return Image.asset(path,
-          width:  MediaQuery. of(context). size. width - 60,
-          fit: BoxFit.contain);
+          width: MediaQuery.of(context).size.width - 60, fit: BoxFit.contain);
     } catch (_) {
       return SizedBox(); // return this widget
     }
   }
+
   void showColonninaInfo(BuildContext context, Colonnina colonnina) {
     showDialog<String>(
         context: context,
@@ -56,7 +57,9 @@ class ApplicationState extends State<Application>
                   Positioned(
                       top: 120,
                       left: 20,
-                      child: getAssetImage('assets/images/' + colonnina.index.toString() + "_ok.jpg")),
+                      child: getAssetImage('assets/images/' +
+                          colonnina.index.toString() +
+                          "_ok.jpg")),
                   Align(
                       alignment: Alignment.bottomCenter,
                       child: TextButton(
@@ -103,6 +106,12 @@ class ApplicationState extends State<Application>
                   MarkerLayer(markers: getMarkers())
                 ],
               ),
+              Positioned.fill(
+                  top: 10,
+                  left: 10,
+                  right: 10,
+                  bottom: MediaQuery.of(context).size.height - 120,
+                  child: TopCard())
             ],
           ),
         ));
@@ -150,8 +159,7 @@ class ApplicationState extends State<Application>
       point: LatLng(STARTLAT, STARTLON),
       width: 80,
       height: 80,
-      child:  Icon(Icons.location_on, color: Colors.red, size: 36.0),
-
+      child: Icon(Icons.location_on, color: Colors.red, size: 36.0),
     ));
     return _markers;
   }

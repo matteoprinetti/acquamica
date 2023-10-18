@@ -14,6 +14,7 @@ import 'Tutorial.dart';
 
 const double STARTLAT = 43.81869;
 const double STARTLON =  7.77519;
+int LASTVIDEOPLAYED = 0 ;
 
 void main() async {
 
@@ -28,6 +29,8 @@ void main() async {
   appState startState = appState.TUTORIAL;
   bool? flagTutorial = glPreferences.getBool("tutorial_completed");
   if(flagTutorial != null && flagTutorial != false) startState = appState.MAIN;
+
+  startState = appState.MAIN;
 
   // Load Database
 
