@@ -5,6 +5,7 @@ import 'package:video_player/video_player.dart';
 import 'dart:developer' as developer;
 
 import 'DataBase.dart';
+import 'main.dart';
 
 void showQuiz(BuildContext context) {
   Domanda _domanda = DataBase.Domande[0];
@@ -56,29 +57,23 @@ class QuizState extends State<Quiz> with TickerProviderStateMixin {
       //mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         SizedBox(height: 20),
-        ClipRRect(
-            borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(20),
-                bottomRight: Radius.circular(20),
-                topLeft: Radius.circular(20),
-                topRight: Radius.circular(20)),
-            child: Container(
-                color: Colors.black12,
-                child: Padding(
-                    padding: EdgeInsets.all(16.0),
-                    child: Text(widget._domanda.domanda)))),
+        Padding(
+            padding: EdgeInsets.only(left: 10, right: 10),
+            child: getBoxedText(widget._domanda.domanda, Colors.lightGreen,
+                TextStyle(fontWeight: FontWeight.bold))),
         Formulario(
           domanda: widget._domanda,
         ),
         Expanded(
             child: Align(
                 alignment: Alignment.bottomCenter,
-                child: TextButton(
+                child: Padding( padding: EdgeInsets.only(bottom: 10),
+    child:ElevatedButton(
+                  child: Text('OK'),
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: const Text('OK'),
-                ))),
+                )))),
       ],
     );
   }
@@ -119,8 +114,21 @@ class FormularioState extends State<Formulario> {
           corretto: widget.domanda.corretta,
           active: !isAnswered,
           onSelection: getRisposta),
-      SizedBox(height: 30,),
-      isAnswered ? Text(widget.domanda.spiegazione) : SizedBox(height: 0,)
+      SizedBox(
+        height: 30,
+      ),
+      isAnswered
+          ? Padding(
+              padding: EdgeInsets.only(left: 0, right: 10),
+              child: getRoundedBoxText(
+                  context,
+                  widget.domanda.spiegazione,
+                  TextStyle(
+                      fontWeight: FontWeight.normal,
+                      fontStyle: FontStyle.italic)))
+          : SizedBox(
+              height: 0,
+            )
     ]);
   }
 
@@ -155,49 +163,50 @@ class RispostaState extends State<Risposta> {
 
   @override
   Widget build(BuildContext context) {
-    return
-    Padding(padding: EdgeInsets.all(10), child:
-      ClipRRect(
-        borderRadius: BorderRadius.only(
-        bottomLeft: Radius.circular(20),
-    bottomRight: Radius.circular(20),
-    topLeft: Radius.circular(20),
-    topRight: Radius.circular(20)),
-    child: Container(
-    color: getBackgroundColor(),
-    child:
-
-
-           Row(children: [
-          Checkbox(
-            checkColor: Colors.green,
-            fillColor: MaterialStateProperty.resolveWith(getColor),
-            value: isChecked,
-            onChanged: (bool? value) {
-              if (widget.active) {
-                setState(() {
-                  isChecked = value!;
-                });
-                if (value != null) widget.onSelection(widget.indice);
-              }
-            },
-          ),
-          Text(widget.testo)
-        ]))));
+    return Padding(
+        padding: EdgeInsets.all(10),
+        child: ClipRRect(
+            borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(20),
+                bottomRight: Radius.circular(20),
+                topLeft: Radius.circular(20),
+                topRight: Radius.circular(20)),
+            child: Container(
+                color: getBackgroundColor(),
+                child: Row(children: [
+                  Checkbox(
+                    checkColor: Colors.green,
+                    fillColor: MaterialStateProperty.resolveWith(getColor),
+                    value: isChecked,
+                    onChanged: (bool? value) {
+                      if (widget.active) {
+                        setState(() {
+                          isChecked = value!;
+                        });
+                        if (value != null) widget.onSelection(widget.indice);
+                      }
+                    },
+                  ),
+                  Text(
+                    widget.testo,
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  )
+                ]))));
   }
 
   Color getBackgroundColor() {
     // if active, transparent
-    if(widget.active) return Colors.transparent;
+    if (widget.active) return Colors.transparent;
 
     // if right answer green otherwise red.
 
-    if(widget.indice == widget.corretto ) return Colors.green;
+    if (widget.indice == widget.corretto) return Colors.green;
 
-    if(widget.indice != widget.corretto && isChecked ) return Colors.red;
+    if (widget.indice != widget.corretto && isChecked) return Colors.red;
 
     return Colors.transparent;
   }
+
   Color getColor(Set<MaterialState> states) {
     const Set<MaterialState> interactiveStates = <MaterialState>{
       MaterialState.pressed,

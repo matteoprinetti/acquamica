@@ -28,6 +28,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     if(LASTVIDEOPLAYED >= DataBase.Videos.length) LASTVIDEOPLAYED = 0;
 
     _initializeVideoPlayerFuture = _controller.initialize();
+    _controller.setVolume(0.0);
     _controller.play();
   }
 

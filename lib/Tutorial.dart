@@ -55,6 +55,7 @@ class TutorialState extends State<Tutorial>
         child: ElevatedButton(
           style: raisedButtonStyle,
           onPressed: () {
+            glPreferences.setBool("tutorial_completed",true);
             Provider.of<StateHandler>(context, listen: false)
                 .setState(appState.MAIN);
           },

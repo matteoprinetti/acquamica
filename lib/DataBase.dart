@@ -9,9 +9,11 @@ class Colonnina {
   String stato;
   double Lat;
   double Long;
+  String trivia;
+  String cenni;
 
-  Colonnina(
-      this.index, this.zona, this.posizione, this.stato, this.Lat, this.Long);
+  Colonnina(this.index, this.zona, this.posizione, this.stato, this.Lat,
+      this.Long, this.trivia, this.cenni);
 }
 
 class Domanda {
@@ -47,28 +49,39 @@ class DataBase {
     for (final _fontanella in _listData) {
       //developer.log("Index " + index.toString()+ ":" + _fontanella[3].toString()
       //    + ":" + _fontanella[4].toString());
-      Colonnina _colonnina = Colonnina(index, _fontanella[0], _fontanella[1],
-          _fontanella[2], _fontanella[3], _fontanella[4]);
+      Colonnina _colonnina = Colonnina(
+        index,
+        _fontanella[0],
+        _fontanella[1],
+        _fontanella[2],
+        _fontanella[3],
+        _fontanella[4],
+        _fontanella.length >= 6 ? _fontanella[5] : "",
+        _fontanella.length >= 7 ? _fontanella[6] : "",
+      );
       Colonnine.add(_colonnina);
       index++;
     }
 
     // load data for fontanelle e domande
 
-    var _domandeString =
-    await rootBundle.loadString("assets/domande.txt");
+    var _domandeString = await rootBundle.loadString("assets/domande.txt");
     List<List<dynamic>> _listDomande =
-    const CsvToListConverter().convert(_domandeString);
+        const CsvToListConverter().convert(_domandeString);
 
     index = 1;
     for (final _domandaRaw in _listDomande) {
-      Domanda _domanda = Domanda(_domandaRaw[0],
-          [_domandaRaw[1].toString(),_domandaRaw[2].toString(),_domandaRaw[3].toString()],
+      Domanda _domanda = Domanda(
+          _domandaRaw[0],
+          [
+            _domandaRaw[1].toString(),
+            _domandaRaw[2].toString(),
+            _domandaRaw[3].toString()
+          ],
           int.parse(_domandaRaw[4].toString()),
-      _domandaRaw[5]);
+          _domandaRaw[5]);
       Domande.add(_domanda);
       index++;
     }
-
   }
 }

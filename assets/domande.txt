@@ -1,1 +1,1 @@
-Quanti litri di acqua sono necessari per produrre un litro di birra ?,'10','20','30',0,Ci vuole tanta acqua per birra
+Quanti litri di acqua sono necessari per produrre un litro di birra ?,circa 5,circa 10,oltre 20 litri,0,La produzione di un litro di birra richiede in media tra 4 e 7 litri di acqua.
