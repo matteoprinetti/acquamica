@@ -75,6 +75,8 @@ class _HomeState extends State<_Home> {
             return const Splash();
           case appState.TUTORIAL:
             bool? flagTutorial = glPreferences.getBool("tutorial_completed");
+            // temp patch to fix tutorial missing
+            flagTutorial = true;
             if (flagTutorial != null && flagTutorial != false) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
                 // Add Your Code here.
