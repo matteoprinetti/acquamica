@@ -29,7 +29,6 @@ class Application extends StatefulWidget {
 
 class ApplicationState extends State<Application>
     with TickerProviderStateMixin {
-
   late int redraw;
   @override
   initState() {
@@ -79,16 +78,16 @@ class ApplicationState extends State<Application>
                           colonnina.posizione,
                           Colors.lightGreenAccent,
                           TextStyle(fontWeight: FontWeight.normal))),
-                  Positioned(
+                  /*Positioned(
                       top: 140,
                       left: 40,
                       width: MediaQuery.of(context).size.width - 80,
                       child: getBoxedText(
                           "Stato: " + colonnina.stato,
                           Colors.lightGreenAccent,
-                          TextStyle(fontWeight: FontWeight.normal))),
+                          TextStyle(fontWeight: FontWeight.normal))),*/
                   Positioned(
-                      top: 220,
+                      top: 140,
                       left: 20,
                       height: MediaQuery.of(context).size.height - 350,
                       child: getAssetImage('assets/images/fontanella' +
@@ -104,6 +103,77 @@ class ApplicationState extends State<Application>
                               Navigator.pop(context);
                             },
                           ))),
+                  Align(
+                      alignment: Alignment.bottomLeft,
+                      child: colonnina.trivia == ""
+                          ? SizedBox()
+                          : Padding(
+                              padding: EdgeInsets.only(left: 20, bottom: 16),
+                              child: Material(
+                                  child: Ink(
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(4),
+                                            side: const BorderSide(
+                                              color: Colors.green,
+                                              width: 2,
+                                            )),
+                                      ),
+                                      child: IconButton(
+                                        padding: EdgeInsets.all(1),
+                                        constraints: BoxConstraints(),
+                                        iconSize: 36,
+                                        icon: Image.asset("assets/curious.png"),
+                                        onPressed: () {
+                                          showDialog(
+                                              context: context,
+                                              builder: (context) {
+                                                return AlertDialog(
+                                                  title: Text("Curiosita'"),
+                                                  content:
+                                                      Text(colonnina.trivia),
+                                                );
+                                              });
+                                        },
+                                      ))))),
+                  Align(
+                      alignment: Alignment.bottomRight,
+                      child: colonnina.cenni == ""
+                          ? SizedBox()
+                          : Padding(
+                              padding: EdgeInsets.only(right: 20, bottom: 16),
+                              child: Material(
+                                  child: Ink(
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(4),
+                                            side: const BorderSide(
+                                              color: Colors.green,
+                                              width: 2,
+                                            )),
+                                      ),
+                                      child: IconButton(
+                                        padding: EdgeInsets.all(1),
+                                        constraints: BoxConstraints(),
+                                        iconSize: 36,
+                                        icon: Image.asset(
+                                            "assets/cennistorici.png"),
+                                        onPressed: () {
+                                          showDialog(
+                                              context: context,
+                                              builder: (context) {
+                                                return AlertDialog(
+                                                  title: Text("Cenni storici"),
+                                                  content:
+                                                SingleChildScrollView(
+                                                child:
+                                                      Text(colonnina.cenni),
+                                                ));
+                                              });
+                                        },
+                                      ))))),
                 ],
               ),
             ));
@@ -217,7 +287,7 @@ class ApplicationState extends State<Application>
                             redraw++;
                           });
                         },
-                        child: const Icon(Icons.center_focus_weak ),
+                        child: const Icon(Icons.center_focus_weak),
                       ))
                 ],
               ),

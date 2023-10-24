@@ -1,115 +1,115 @@
-Passeggiata Italo Calvino, Area Cani, Discreto, 43.8140385603, 7.7747711746 
-Passeggiata Italo Calvino, Area Cani, Buono, 43.8140362329 ,7.7747227932 
-Poggio, Area cani Poggio, Buono, 43.8278588293, 7.8143696947 
-San Martino, Area Cani Pontello, Buono, 43.8206516026 ,7.7984957804 
-Bussana, Area cani Via Marsala, Buono, 43.822377591, 7.8383750367 
-Baragallo, Area giochi di Via Margotti, Buono, 43.8267764453, 7.7702369906 
-Foce, Area giochi giardini Foce ,Discreto, 43.8111851626, 7.7613175963 
-Bussana, Area giochi Via Galvani ,Buono ,43.8244882857 ,7.8373537018 
-Coldirodi, Autosilos Coldirodi ,Buono ,43.8115426698 ,7.7321088734 
-Villetta, Chiesa della Villetta ,Discreto, 43.8303318778 ,7.7887033933 
-Verezzo, Chiesa di San Antonio ,Buono, 43.8495266382 ,7.7885042234 
-Verezzo, San Donato Chiesa di San Donato ,Buono, 43.8491038784, 7.7812945945 
-San Lorenzo, Chiesa di San Lorenzo, Discreto ,43.8203157301, 7.7444520045 
-Centro,Chiosco Ruffini, Buono, 43.8193135893 ,7.7819980918 
-Coldirodi ,Cimitero Coldirodi ,Discreto ,43.8074939198, 7.730363753 
-Verezzo, Cimitero San Donato, Cattivo ,43.8494998247, 7.7809412118 
-Casinò, Corso degli Inglesi, Buono, 43.8159900832 ,7.7730907287 
-San Martino, Corso Mazzini ,Pessimo ,43.8232713831, 7.800145867 
-"La Brezza", Corso Mazzini ,Discreto, 43.8232192056 ,7.8086404902 
-Pian di Poma, Corso Mazzini ,Discreto, 43.8042633256 ,7.7469180318 
-Madonna della Costa ,Cottolengo Don Orione ,Cattivo ,43.8205601954 ,7.7738960185 
-Bussana ,Di fianco al dopolavoro ,Pessimo ,43.823657755 ,7.8384298542 
-Bussana ,Fronte Via Biancheri, Cattivo, 43.82489418 ,7.8389693729 
-Santa Tecla, Giardini Vittorio Veneto ,Deteriorato, 43.8143338059, 7.7779760677 
-Foce, Incrocio Corso Matuzia - Corso degli Inglesi, Discreto, 43.8110576035, 7.7610879402 
-Foce ,Incrocio Corso Matuzia - Via Padre Semeria, Buono ,43.8095402377, 7.7570935002 
-'La Vesca', Inizio Via Duca d'Aosta ,Discreto ,43.8186097456, 7.8256684354 
-Baragallo, Inizio Via Margotti ,Pessimo ,43.8262295495, 7.7708746307 
-Coldirodi, Inizio Via Rambaldi ,Cattivo, 43.81250638 ,7.7301900306 
-Villa del Sole ,Interno parco ,Discreto ,43.8232980102, 7.7997363449 
-Villa del Sole ,Interno Parco, Discreto ,43.8232855063, 7.7990109198 
-Piazza Muccioli ,Interno Piazza Muccioli, Discreto ,43.8174190649 ,7.7748598737 
-Pigna, Oratorio di San Costanzo, Discreto ,43.8192903742, 7.7749788223 
-Centro ,Parco delle Carmelitane, Buono ,43.8215572592 ,7.7837299514 
-San Martino, Parco di Villa Mercede, Discreto ,43.8215521235 ,7.7961528563 
-Centro, Parco di Villa Ormond ,Discreto, 43.8220119796 ,7.790336989 
-Centro ,Parco di Villa Ormond, Buono, 43.8219568171, 7.7886030277 
-Sud-Est, Passeggiata Salvo D'Acquisto, Discreto ,43.8204917051, 7.7899666266 
-Sud-Est ,Passeggiata Salvo D'Acquisto ,Discreto ,43.8204399007, 7.7891570225 
-"Morgana", Passeggiata Salvo D'Acquisto, Discreto ,43.8197235655, 7.7846311621 
-Arenella ,Passeggiata Trento Trieste ,Buono, 43.8169528218 ,7.7803652664 
-Centro ,Piazza Bresca ,Buono ,43.8163702227 ,7.778390511 
-Pigna, Piazza Capitolo ,Discreto, 43.8193544713, 7.7745346457 
-Vecchia Stazione dei treni ,Piazza Cesare Battisti ,Buono ,43.8142569844, 7.7712801216 
-Pigna ,Piazza dei Dolori ,Buono ,43.8184720624 ,7.7749126893 
-San Pietro ,Piazza di San Pietro ,Discreto, 43.8381866395 ,7.7762758349
-Centro ,Piazza Eroi Sanremesi, Discreto, 43.8170932308 ,7.7748857659 
-Bussana, Piazza Giovanni Chiappe ,Buono, 43.8238076261, 7.8390328457 
-Poggio, Piazza Martiri, Buono, 43.830690204 ,7.8138794399 
-Pigna ,Piazza Nota ,Discreto, 43.817747751, 7.7755898118 
-Piazza San Bernardo ,Piazza San Bernardo ,Buono ,43.8167691687, 7.7709151001 
-Coldirodi ,Piazza San Sebastiano ,Buono ,43.8123646379, 7.7306559225 
-Centro ,Piazza San Siro, Discreto ,43.8165800713, 7.7734807091 
-Centro, Piazza San Siro ,Discreto ,43.8169089935 ,7.7736235229 
-Poggio, Piazza Santa Margherita ,Buono ,43.8314557118, 7.8139697518 
-Santuario Madonna della Costa ,Piazzale Santuario Assunta ,Buono, 43.8218641731, 7.77260001 
-Pigna, Porta San Giuseppe, Buono, 43.8200246375 ,7.7733146407 
-'Permare' ,Porto ,Cattivo ,43.8160970987, 7.7796819308 
-San Romolo ,Prato di San Romolo ,Discreto ,43.8576126652, 7.727156279 
-Rondò Garibaldi ,Rondò Garibaldi, Discreto, 43.8210793685 ,7.7825574617 
-Valle Armea, Rotatoria Valle Armea ,Pessimo ,43.8195267857, 7.8354235519 
-Mercato Annonario ,Salita San Bernardo ,Discreto ,43.8173617328 ,7.7725921135 
-Pigna ,San Costanzo, In cattivo stato conservativo ,43.8192476428 ,7.7754506365 
-Coldirodi, Santuario Madonna Pellegrina ,Discreto ,43.8056802986, 7.7282435501 
-Verezzo, ponte Scuole di Verezzo ,Deteriorato, 43.8520887312, 7.7824613859 
-Madonna della Costa, Strada Borgo ,Pessimo ,43.821204593, 7.7720843077 
-San Pietro ,Strada Carrozzabile San Pietro ,Discreto ,43.8330174613, 7.776524289 
-Verezzo ,Ponte Strada carrozzabile Verezzo ,Pessimo ,43.8513275585 ,7.7832653285 
-Baragallo, Strada Giovanni Borea ,Ottimo, 43.8227509439 ,7.7771808102 
-Coldirodi ,Strada Rotabile Caponero ,Cattivo ,43.8086986473 ,7.7311193983 
-San Giovanni, Strada San Giovanni ,Discreto ,43.8334256471 ,7.7600092192 
-Ospedale, Strada San Pietro, Pessimo ,43.8279910705, 7.7744212161 
-Ospedale ,Strada San Pietro ,Discreto ,43.8236335259 ,7.776220063 
-Verezzo ,Strada San Pietro Parà ,Discreto ,43.8440859688 ,7.7804064275 
-Verezzo San Donato, Strada San Pietro Parà ,Discreto ,43.8465777144, 7.7785142791 
-Croce della Parà, Strada San Pietro Parà, Cattivo, 43.8414227053, 7.7811946064 
-San Giacomo ,Strada Sen. Ernesto Marsaglia, Cattivo ,43.8396168988 ,7.7514109307 
-San Giovanni ,Strada Sen. Ernesto Marsaglia 131 ,Pessimo ,43.8277448942, 7.7670122686 
-Bussana ,Via al Mare, Discreto ,43.8235047612, 7.8404667538 
-Pigna ,Via Amoretti ,Da restaurare ,43.8191329801 ,7.7749482234 
-Bussana ,Via Bussana ,Vecchia Disceto ,43.8261493126 ,7.8363496776 
-Pigna ,Via Capitolo, Ottimo ,43.8189243075, 7.7741970715 
-Corso Inglesi ,Via Carducci, Discreto, 43.815426619, 7.7660419896 
-Pigna, Via Cisterna ,Discreto, 43.8193217106, 7.7735614055 
-Centro, Via Corradi ,Discreto, 43.8162844561 ,7.7740144576
- Coldirodi, Via Costa ,Ottimo ,43.8105568629, 7.7314396474 
- Piazza San Bernardo, Via Costiglioli ,Discreto ,43.8170257493 ,7.7714812422 
- Baragallo ,Via Dante Alighieri ,Discreto ,43.8246318995, 7.7751612955 
- San Martino ,Via della Repubblica ,Ottimo, 43.8220987373 ,7.7952590732 
- Madonna della Guardia, Via Duca d'Aosta ,Buono, 43.8200602977, 7.830612715 
- Poggio ,Via Duca d'Aosta ,Discreto ,43.8282819313, 7.8151244536 
- Vasca AMAIE ,Via Duca degli Abruzzi ,Pessimo, 43.8295811276 ,7.7936225339
-Poggio ,Via Fratelli Baracca, Discreto, 43.8297594821, 7.8145245247 
-Poggio, Via Fratelli Baracca, Discreto ,43.8291312366, 7.814808362 
-Borgo ,Via Galileo Galilei, Discreto ,43.82554165, 7.7626869759 
-Coldirodi ,Via Gian Battista Zirio, Ottimo ,43.8137343223 ,7.7306894825 
-Funivia ,Via Isonzo, Discreto ,43.8181387521 ,7.771914991 
-Caserma San Martino ,Via Lamarmora ,Pessimo ,43.8252157696, 7.795194701 
-'Baretti' ,Via Nazario Sauro, Discreto ,43.815596879, 7.7782706943 
-Poggio, Via Peri, Discreto, 43.8317301907 ,7.8149363025 
-Pigna ,Via Porte Candelieri, Pessimo ,43.8212203777, 7.7745948563 
-Poggio ,Via Rancieri ,Discreto ,43.8314887637 ,7.8147242456 
-Poggio ,Via Rancieri ,Discreto ,43.8317312314, 7.8154628381 
-Sottopasso galleria Francia, Via Roglio ,Discreto, 43.8199103918, 7.7774144095 
-Pigna ,Via Roglio 25 ,Pessimo, 43.8192789792 ,7.7762412708 
-Pigna "a Funtanassa", Via Romolo Moreno ,Pessimo, 43.8192014596, 7.7761392871 
-Centro, Via Saccheri, Discreto, 43.8159138942, 7.7736711275 
-Baragallo ,Via San Francesco ,Pessimo ,43.8248793791, 7.7741733821 
-Pigna ,Via Tapoletti ,Cattivo ,43.8200353203 ,7.7741832527 
-Tasciaire ,Via Tasciaire ,Buono ,43.8292828502 ,7.7698691946 
-Bussana, Via Tre Fontane, Discreto ,43.8250294775, 7.837653755 
-Bussana, Via Tre Fontane ,Discreto ,43.8250690259 ,7.8377417514 
-Bussana ,Via Tre Fontane ,Cattivo ,43.8251158596, 7.8378283052 
-Val d'Olivi, Via Val d'Olivi ,Discreto ,43.8285842778, 7.8017469447 
-Val d'Olivi,Via Val d'Olivi ,Pessimo, 43.8257785206 ,7.8023401989
+Passeggiata Italo Calvino; Area Cani; Discreto; 43.8140385603; 7.7747711746 
+Passeggiata Italo Calvino; Area Cani; Buono; 43.8140362329 ;7.7747227932 
+Poggio; Area cani Poggio; Buono; 43.8278588293; 7.8143696947
+San Martino; Area Cani Pontello; Buono; 43.8206516026 ;7.7984957804 
+Bussana; Area cani Via Marsala; Buono; 43.822377591; 7.8383750367 
+Baragallo; Area giochi di Via Margotti; Buono; 43.8267764453; 7.7702369906 
+Foce; Area giochi giardini Foce ;Discreto; 43.8111851626; 7.7613175963 
+Bussana; Area giochi Via Galvani ;Buono ;43.8244882857 ;7.8373537018 
+Coldirodi; Autosilos Coldirodi ;Buono ;43.8115426698 ;7.7321088734 
+Villetta; Chiesa della Villetta ;Discreto; 43.8303318778 ;7.7887033933 
+Verezzo; Chiesa di San Antonio ;Buono; 43.8495266382 ;7.7885042234 
+Verezzo; San Donato Chiesa di San Donato ;Buono; 43.8491038784; 7.7812945945 
+San Lorenzo; Chiesa di San Lorenzo; Discreto ;43.8203157301; 7.7444520045 
+Centro;Chiosco Ruffini; Buono; 43.8193135893 ;7.7819980918 
+Coldirodi ;Cimitero Coldirodi ;Discreto ;43.8074939198; 7.730363753 
+Verezzo; Cimitero San Donato; Cattivo ;43.8494998247; 7.7809412118 
+Casinò; Corso degli Inglesi; Buono; 43.8159900832 ;7.7730907287 
+San Martino; Corso Mazzini ;Pessimo ;43.8232713831; 7.800145867 
+"La Brezza"; Corso Mazzini ;Discreto; 43.8232192056 ;7.8086404902 
+Pian di Poma; Corso Mazzini ;Discreto; 43.8042633256 ;7.7469180318 
+Madonna della Costa ;Cottolengo Don Orione ;Cattivo ;43.8205601954 ;7.7738960185 
+Bussana ;Di fianco al dopolavoro ;Pessimo ;43.823657755 ;7.8384298542 
+Bussana ;Fronte Via Biancheri; Cattivo; 43.82489418 ;7.8389693729 
+Santa Tecla; Giardini Vittorio Veneto ;Deteriorato; 43.8143338059; 7.7779760677 
+Foce; Incrocio Corso Matuzia - Corso degli Inglesi; Discreto; 43.8110576035; 7.7610879402 
+Foce ;Incrocio Corso Matuzia - Via Padre Semeria; Buono ;43.8095402377; 7.7570935002 
+'La Vesca'; Inizio Via Duca d'Aosta ;Discreto ;43.8186097456; 7.8256684354 
+Baragallo; Inizio Via Margotti ;Pessimo ;43.8262295495; 7.7708746307 
+Coldirodi; Inizio Via Rambaldi ;Cattivo; 43.81250638 ;7.7301900306 
+Villa del Sole ;Interno parco ;Discreto ;43.8232980102; 7.7997363449 
+Villa del Sole ;Interno Parco; Discreto ;43.8232855063; 7.7990109198 
+Piazza Muccioli ;Interno Piazza Muccioli; Discreto ;43.8174190649 ;7.7748598737 
+Pigna; Oratorio di San Costanzo; Discreto ;43.8192903742; 7.7749788223 
+Centro ;Parco delle Carmelitane; Buono ;43.8215572592 ;7.7837299514 
+San Martino; Parco di Villa Mercede; Discreto ;43.8215521235 ;7.7961528563 
+Centro; Parco di Villa Ormond ;Discreto; 43.8220119796 ;7.790336989 
+Centro ;Parco di Villa Ormond; Buono; 43.8219568171; 7.7886030277 
+Sud-Est; Passeggiata Salvo D'Acquisto; Discreto ;43.8204917051; 7.7899666266 
+Sud-Est ;Passeggiata Salvo D'Acquisto ;Discreto ;43.8204399007; 7.7891570225 
+"Morgana"; Passeggiata Salvo D'Acquisto; Discreto ;43.8197235655; 7.7846311621 
+Arenella ;Passeggiata Trento Trieste ;Buono; 43.8169528218 ;7.7803652664 
+Centro ;Piazza Bresca ;Buono ;43.8163702227 ;7.778390511;;la fontana di Piazza Bresca venne costruita in ricordo del capitano Benedetto Bresca nella quale venne posizionato l’obelisco che somiglia a quello di San Pietro in Vaticano.
+Pigna; Piazza Capitolo ;Discreto; 43.8193544713; 7.7745346457;;la fontana è situata a Piazza del Capitolo nel cuore del centro storico della Pigna. Nonostante ciò non fa parte delle quattro fontane per le quali venne usato l’acquedotto del sindaco Carli. Nonostante il tempo passato e dopo i vari restauri ha mantenuto il suo aspetto originario così come gli edifici intorno. La storia della fontana di piazza del Capitolo non è cambiata nel tempo e gli edifici attorno sono sempre gli stessi. Come si può vedere dalle immagini anche questa fontana pur di dimensioni più ridotta delle altre presenta il classico pseudo-obelisco. La recente restaurazione della piazza Capitolo ha restituito il suo aspetto più veritiero. Proprio in questa piazza al tempo della repubblica Genovese si teneva la “giunta comunale” presidiata dal podestà -  ovvero il capo dell’amministrazione.
+Vecchia Stazione dei treni ;Piazza Cesare Battisti ;Buono ;43.8142569844; 7.7712801216;;la fontana venne commissionata dal podestà Giovanni Guidi e realizzata dall’architetto Silvio Gabrielli nel 1933. Una curiosità riguardo essa è che la scultura posta in cima, avrebbe dovuto raffigurare lo stemma di sanremo composto da un leone e una palma, ma invece sono presenti due leoni, facendo ricordare così lo stemma della famiglia Palmieri.
+Pigna ;Piazza dei Dolori ;Buono ;43.8184720624 ;7.7749126893;;la fontana è situata a Sanremo vecchia, nella Piazza dei dolori, chiamata così per via della Confraternita della Madonna dei Sette dolori che si trovava vicino all' Oratorio di San Sebastiano. La fontana fu una delle prime quattro per la quale venne usata l’acqua dell’acquedotto, che portava l’acqua dal lago Negro, del sindaco Siro Andrea Carli. Veniva usata dalle donne per prendere l’acqua e i ragazzi e i bambini erano in grado di giocare nella piazza dato che non erano presenti macchine. Originariamente al centro della fontanella era presente un obelisco di pietra, ma nel XIX venne rimosso e sostituito con una fusione in ghisa che presenta una raffigurazione di un toro dalla cui bocca fuoriesce il getto d’acqua. Successivamente, nel XX secolo venne sostituita nuovamente con un obelisco simile all’originale e negli anni 90 ci fu l’ultima sostituzione con la fusione in ghisa, rimasta così ancora tutt’oggi.
+San Pietro ;Piazza di San Pietro ;Discreto; 43.8381866395 ;7.7762758349
+Centro ;Piazza Eroi Sanremesi; Discreto; 43.8170932308 ;7.7748857659 
+Bussana; Piazza Giovanni Chiappe ;Buono; 43.8238076261; 7.8390328457 
+Poggio; Piazza Martiri; Buono; 43.830690204 ;7.8138794399 
+Pigna ;Piazza Nota ;Discreto; 43.817747751; 7.7755898118;;La fontana ubicata nella piazza dedicata ad Alberto Nota, importante funzionario pubblico della prima metà del XIX secolo, fu costruita assieme ad altre fontane nel 1830 circa, dopo la realizzazione dell’acquedotto voluto da Siro Andrea Carli. L’acquedotto con la sua rete di distribuzione nei vari quartieri della città, consentì la costruzione di cinque fontane, poste nelle piazze: Capitolo, dei Dolori, di Santo Stefano, dei Missionari e del Mercato. Ad oggi, mantengono il disegno originario la fontana di piazza Santo Stefano (ora piazza Nota) e di piazza dei Missionari, di cui si conosce il progetto firmato dell’ingegnere Giordano del Genio civile nel 1834.
+Piazza San Bernardo ;Piazza San Bernardo ;Buono ;43.8167691687; 7.7709151001 
+Coldirodi ;Piazza San Sebastiano ;Buono ;43.8123646379; 7.7306559225 
+Centro ;Piazza San Siro; Discreto ;43.8165800713; 7.7734807091 
+Centro; Piazza San Siro ;Discreto ;43.8169089935 ;7.7736235229;;La vasca della fontana venne acquistata a seguito di un’iniziativa di un colonnello inglese, il Momber, ufficiale di Sua Maestà britannica e residente a Sanremo, oltre che fondatore della Società per la Protezione degli animali. Salvo i leoni di sostegno a la lapide commemorativa, creazione recente, la vasca della fontana in questione venne usata come abbeveratoio per cavalli. Si tratta di un’opera ricca di riferimenti all’ambito bizantino ed adriatico, pur essendo in marmo bianco di Carrara. Pochi esempi scultorei analoghi si trovano in San Marco a Venezia o all’abbazia di Pomposa, sempre sul litorale adriatico.
+Poggio; Piazza Santa Margherita ;Buono ;43.8314557118; 7.8139697518 
+Santuario Madonna della Costa ;Piazzale Santuario Assunta ;Buono; 43.8218641731; 7.77260001 
+Pigna; Porta San Giuseppe; Buono; 43.8200246375 ;7.7733146407 
+'Permare' ;Porto ;Cattivo ;43.8160970987; 7.7796819308 
+San Romolo ;Prato di San Romolo ;Discreto ;43.8576126652; 7.727156279 
+Rondò Garibaldi ;Rondò Garibaldi; Discreto; 43.8210793685 ;7.7825574617 
+Valle Armea; Rotatoria Valle Armea ;Pessimo ;43.8195267857; 7.8354235519 
+Mercato Annonario ;Salita San Bernardo ;Discreto ;43.8173617328 ;7.7725921135 
+Pigna ;San Costanzo; In cattivo stato conservativo ;43.8192476428 ;7.7754506365 
+Coldirodi; Santuario Madonna Pellegrina ;Discreto ;43.8056802986; 7.7282435501 
+Verezzo; ponte Scuole di Verezzo ;Deteriorato; 43.8520887312; 7.7824613859 
+Madonna della Costa; Strada Borgo ;Pessimo ;43.821204593; 7.7720843077 
+San Pietro ;Strada Carrozzabile San Pietro ;Discreto ;43.8330174613; 7.776524289 
+Verezzo ;Ponte Strada carrozzabile Verezzo ;Pessimo ;43.8513275585 ;7.7832653285 
+Baragallo; Strada Giovanni Borea ;Ottimo; 43.8227509439 ;7.7771808102 
+Coldirodi ;Strada Rotabile Caponero ;Cattivo ;43.8086986473 ;7.7311193983 
+San Giovanni; Strada San Giovanni ;Discreto ;43.8334256471 ;7.7600092192 
+Ospedale; Strada San Pietro; Pessimo ;43.8279910705; 7.7744212161 
+Ospedale ;Strada San Pietro ;Discreto ;43.8236335259 ;7.776220063 
+Verezzo ;Strada San Pietro Parà ;Discreto ;43.8440859688 ;7.7804064275 
+Verezzo San Donato; Strada San Pietro Parà ;Discreto ;43.8465777144; 7.7785142791 
+Croce della Parà; Strada San Pietro Parà; Cattivo; 43.8414227053; 7.7811946064 
+San Giacomo ;Strada Sen. Ernesto Marsaglia; Cattivo ;43.8396168988 ;7.7514109307 
+San Giovanni ;Strada Sen. Ernesto Marsaglia 131 ;Pessimo ;43.8277448942; 7.7670122686 
+Bussana ;Via al Mare; Discreto ;43.8235047612; 7.8404667538 
+Pigna ;Via Amoretti ;Da restaurare ;43.8191329801 ;7.7749482234 
+Bussana ;Via Bussana ;Vecchia Disceto ;43.8261493126 ;7.8363496776 
+Pigna ;Via Capitolo; Ottimo ;43.8189243075; 7.7741970715 
+Corso Inglesi ;Via Carducci; Discreto; 43.815426619; 7.7660419896 
+Pigna; Via Cisterna ;Discreto; 43.8193217106; 7.7735614055 
+Centro; Via Corradi ;Discreto; 43.8162844561 ;7.7740144576;;La fontana in questione rappresenta un toret, ossia delle fontane pubbliche, dal tipico colore verde bottiglia, caratterizzate da una testa di toro (appunto toret, piccolo toro) da cui sgorga l’acqua. Sono uno dei simboli di Torino e sono sparse per tutta la città: il censimento parla di circa 800 Toret. Sono tutte raccolte nella capitale sabauda (e dintorni) tranne due. Infatti due di queste sono a Sanremo, la suddetta in via Corradi e un’altra in piazza dei dolori.
+ Coldirodi; Via Costa ;Ottimo ;43.8105568629; 7.7314396474 
+ Piazza San Bernardo; Via Costiglioli ;Discreto ;43.8170257493 ;7.7714812422 
+ Baragallo ;Via Dante Alighieri ;Discreto ;43.8246318995; 7.7751612955 
+ San Martino ;Via della Repubblica ;Ottimo; 43.8220987373 ;7.7952590732 
+ Madonna della Guardia; Via Duca d'Aosta ;Buono; 43.8200602977; 7.830612715 
+ Poggio ;Via Duca d'Aosta ;Discreto ;43.8282819313; 7.8151244536 
+ Vasca AMAIE ;Via Duca degli Abruzzi ;Pessimo; 43.8295811276 ;7.7936225339
+Poggio ;Via Fratelli Baracca; Discreto; 43.8297594821; 7.8145245247 
+Poggio; Via Fratelli Baracca; Discreto ;43.8291312366; 7.814808362 
+Borgo ;Via Galileo Galilei; Discreto ;43.82554165; 7.7626869759 
+Coldirodi ;Via Gian Battista Zirio; Ottimo ;43.8137343223 ;7.7306894825 
+Funivia ;Via Isonzo; Discreto ;43.8181387521 ;7.771914991 
+Caserma San Martino ;Via Lamarmora ;Pessimo ;43.8252157696; 7.795194701 
+'Baretti' ;Via Nazario Sauro; Discreto ;43.815596879; 7.7782706943 
+Poggio; Via Peri; Discreto; 43.8317301907 ;7.8149363025 
+Pigna ;Via Porte Candelieri; Pessimo ;43.8212203777; 7.7745948563 
+Poggio ;Via Rancieri ;Discreto ;43.8314887637 ;7.8147242456 
+Poggio ;Via Rancieri ;Discreto ;43.8317312314; 7.8154628381 
+Sottopasso galleria Francia; Via Roglio ;Discreto; 43.8199103918; 7.7774144095 
+Pigna ;Via Roglio 25 ;Pessimo; 43.8192789792 ;7.7762412708 
+Pigna "a Funtanassa"; Via Romolo Moreno ;Pessimo; 43.8192014596; 7.7761392871;;detta “a funtanassa”. Nel 979 d.c. un gruppo di contadini, finita la minaccia dei saraceni a causa dei quali si erano rifugiati nell’entroterra, chiesero ed ottennero dal Vescovo Teodolfo, in cambio di una percentuale sui prodotti agricoli che se ne sarebbero ricavati, l'autorizzazione di stabilirsi sulla collina pliocenica denominata 'Costa'- Qui cominciarono a costruire le case intorno ad un nucleo fortificato: il 'Castrum'. La collinetta era facilmente difendibile e le abitazioni, costruite una attaccata all'altra, costituivano delle vere e proprie mura nelle quali si aprivano, nei punti strategici, alcune porte per l' accesso e l' uscita dalla città. Il problema dell' acqua però sorse da subito perché, anche se il nucleo abitativo aveva due torrenti, il San Francesco a levante ed il San Romolo a ponente che scorrevano al fondo delle due valli laterali, questi restavano fuori dalla cinta muraria e non erano quindi facilmente raggiungibili per attingervi l'acqua.
+Centro; Via Saccheri; Discreto; 43.8159138942; 7.7736711275 
+Baragallo ;Via San Francesco ;Pessimo ;43.8248793791; 7.7741733821 
+Pigna ;Via Tapoletti ;Cattivo ;43.8200353203 ;7.7741832527 
+Tasciaire ;Via Tasciaire ;Buono ;43.8292828502 ;7.7698691946 
+Bussana; Via Tre Fontane; Discreto ;43.8250294775; 7.837653755 
+Bussana; Via Tre Fontane ;Discreto ;43.8250690259 ;7.8377417514 
+Bussana ;Via Tre Fontane ;Cattivo ;43.8251158596; 7.8378283052 
+Val d'Olivi; Via Val d'Olivi ;Discreto ;43.8285842778; 7.8017469447 
+Val d'Olivi;Via Val d'Olivi ;Pessimo; 43.8257785206 ;7.8023401989

@@ -1,1 +1,10 @@
-Quanti litri di acqua sono necessari per produrre un litro di birra ?,circa 5,circa 10,oltre 20 litri,0,La produzione di un litro di birra richiede in media tra 4 e 7 litri di acqua.
+Quanti litri di acqua sono necessari per produrre un litro di birra ?;circa 5;circa 10;oltre 20 litri;0;La produzione di un litro di birra richiede in media tra 4 e 7 litri di acqua.
+Quanta acqua è presente nel nostro corpo ?;30%;60-70%;90%;1;Circa il 65% del nostro corpo e' composto da acqua.
+Quanti metri cubi di acqua dolce ci sono nel mondo?;50 milioni;100 milioni;1.4 milioni;2;L'acqua dolce rappresenta una piccolissima parte dell'acqua totale del pianeta. Nonostante l'acqua ricopra quasi il 70 per cento del nostro pianeta; l'acqua dolce rappresenta solamente il 2.5 per cento. La parte restante è acqua salata ed oceanica.
+Quante persone al mondo non hanno accesso all'acqua potabile ?;750 milioni;10 milioni; 1 miliardo;0;La buona notizia è che nel 1990 erano quasi tre miliardi.
+Quanta acqua risparmieresti facendo solo una lavatrice al giorno ?;10 litri; 100 litri;45 litri;2;in media una lavatrice consuma 45 litri di acqua per lavaggio.
+Quanta acqua sprechi lasciando il rubinetto aperto mentre ti lavi i denti ?;1 litro; 10 litri;6-8 litri;2;Mentre ti lavi i denti chiudi il rubinetto !
+Quanti litri d’acqua usi quando fai la doccia?;1000 litri; 10 litri; 80 litri;2;Una doccia usa circa 80 litri di acqua.
+Quanta acqua bisognerebbe bere quotidianamente?;2 litri; 1.5 litri; 1 litro;1;La quantità consigliata e' di 1.5 litri al giorno.
+Qual è la temperatura di ebollizione dell’acqua al livello del mare ?; 100 gradi; 85 gradi; 110 gradi;0;Con l'aumentare dell' altitudine diminuisce la temperatura di ebollizzione - dato che diminuisce la pressione atmosferica.
+quanto corrisponde 1 dm^3 d’acqua?; 0.1 litri; 1 litro; 10 litri;1;Si tratta di un cubo con lato 10 cm.

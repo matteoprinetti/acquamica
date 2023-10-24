@@ -43,7 +43,7 @@ class DataBase {
     var _fontanelleString =
         await rootBundle.loadString("assets/fontanelle.txt");
     List<List<dynamic>> _listData =
-        const CsvToListConverter().convert(_fontanelleString);
+        const CsvToListConverter(fieldDelimiter: ";").convert(_fontanelleString);
 
     int index = 1;
     for (final _fontanella in _listData) {
@@ -67,7 +67,7 @@ class DataBase {
 
     var _domandeString = await rootBundle.loadString("assets/domande.txt");
     List<List<dynamic>> _listDomande =
-        const CsvToListConverter().convert(_domandeString);
+        const CsvToListConverter(fieldDelimiter: ";").convert(_domandeString);
 
     index = 1;
     for (final _domandaRaw in _listDomande) {

@@ -4,6 +4,7 @@ import 'dart:developer' as developer;
 enum appState {
   BOOTSTRAP,
   SPLASH,
+  GPS,
   TUTORIAL,
   MAIN,
   NOSIM,

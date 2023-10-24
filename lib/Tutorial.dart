@@ -23,10 +23,16 @@ class TutorialState extends State<Tutorial>
   Widget _EndTutorialButton = new Text("");
 
   List<String> tutorialTexts = [
-    "Benvenuto nel tutorial",
-    "Tutorial page 1",
-    "Tutorial page 2",
-    "Tutorial page 3"
+    "Ciao! Hai sete?\n" +
+  "Questa app ti aiuterà a cercare la fonte d’acqua pubblica potabile più vicina alla tua"+
+  "posizione in questo momento, georeferenziandoti nella zona di Sanremo.\n" +
+  "Cliccando sulle gocce presenti sulla mappa, troverai la fontanella più vicina a te, potrai riconoscerla grazie " +
+  "alla foto e, eventualmente, anche cenni storici riguardanti quest’ultima. Lo scopo è " +
+  "sensibilizzarvi a un utilizzo più consapevole dell’acqua.",
+
+    "Cliccando sulle gocce presenti sulla mappa, verranno suggerite le fontanelle più vicine facilmente riconoscibili dalle foto. La tua ricerca sarà accompagnata da alcune peculiarità storiche sulle fontanelle, alcune curiosità sull’acqua e alcuni consigli per un suo corretto utilizzo.",
+    "L’app è stata creata dagli 'Ambasciatori dell’acqua', ovvero alcuni alunni delle classi 3F e 3G e Luca Prinetti (4D) a.s. 2023/2024 nell’ambito del progetto AcquaMica (Liceo G. D. Cassini Sanremo e #IoSonoAmbiente) con la prof.ssa Federica Siccardi, grazie al prezioso aiuto del tecnico informatico Matteo Prinetti.",
+    "Si ringraziano il comune di Sanremo, nella persona dell’architetto Mauro Menozzi e il consigliere Mauro Robaldo e Rivieracqua S.p.a nella persona dell’ing. Paolo Ferrari. Si precisa che diverse fontanelle sono in fase di manutenzione per cui non è garantito l'approvvigionamento d’acqua."
   ];
 
   @override
@@ -42,7 +48,7 @@ class TutorialState extends State<Tutorial>
     else
       pagePosition--;
     if (pagePosition >= tutorialTexts.length) pagePosition = 0;
-    if (pagePosition < 0) pagePosition = tutorialTexts.length-1;
+    if (pagePosition < 0) pagePosition = 0;
     if (pagePosition == tutorialTexts.length - 1)
       _EndTutorialButton = getEndTutorialButton();
     else
@@ -57,7 +63,7 @@ class TutorialState extends State<Tutorial>
           onPressed: () {
             glPreferences.setBool("tutorial_completed",true);
             Provider.of<StateHandler>(context, listen: false)
-                .setState(appState.MAIN);
+                .setState(appState.GPS);
           },
           child: Text('Ho Capito !'),
         ));

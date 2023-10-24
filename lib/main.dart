@@ -76,7 +76,7 @@ class _HomeState extends State<_Home> {
           case appState.TUTORIAL:
             bool? flagTutorial = glPreferences.getBool("tutorial_completed");
             // temp patch to fix tutorial missing
-            flagTutorial = true;
+            //flagTutorial = false;
             if (flagTutorial != null && flagTutorial != false) {
               WidgetsBinding.instance.addPostFrameCallback((_) {
                 // Add Your Code here.
@@ -87,6 +87,10 @@ class _HomeState extends State<_Home> {
               });
               return SizedBox(); }
             return const Tutorial();
+            case appState.GPS:
+              // gps disclaimer
+            return InformGps();
+
           case appState.MAIN:
             return const Application();
           default:
@@ -136,4 +140,64 @@ Widget getRoundedBoxText(BuildContext context, String text, TextStyle style) {
         text,
         style: style,
       ));
+}
+
+
+class InformGps extends StatelessWidget {
+  const InformGps({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) =>  FutureBuilder<LocationPermission>(
+   future: _hasGpsPermission(),
+      builder: (BuildContext context, AsyncSnapshot<LocationPermission> snapshot) {
+        if (!snapshot.hasData) {
+          // while data is loading:
+          return SizedBox();
+        } else {
+          if (snapshot.data == LocationPermission.always ||
+              snapshot.data == LocationPermission.whileInUse) {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              // Add Your Code here.
+
+              Provider.of<StateHandler>(context, listen: false)
+                  .setState(appState.MAIN);
+              ;
+            });
+            return SizedBox();
+          }
+         else {
+            // inform about GPS Usage
+            return AlertDialog(
+              title: const Text('Permesso richiesto'),
+              content: const SingleChildScrollView(
+                child: ListBody(
+                  children: <Widget>[
+                    Text("Questa App ha bisogno della tua approvazione per i servizi di posizione, in modo da poter mostrare la tua posizone sulla mappa."),
+                  ],
+                ),
+              ),
+              actions: <Widget>[
+                TextButton(
+                  child: const Text('Ho Capito'),
+                  onPressed: () {
+                    WidgetsBinding.instance.addPostFrameCallback((_) {
+                      // Add Your Code here.
+
+                      Provider.of<StateHandler>(context, listen: false)
+                          .setState(appState.MAIN);
+                      ;
+                    });
+                  },
+                ),
+              ],
+            );
+          }
+        }
+      });
+}
+
+Future<LocationPermission> _hasGpsPermission() async {
+  LocationPermission permission = await Geolocator.checkPermission();
+  return permission;
 }

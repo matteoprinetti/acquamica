@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:acquamica/VideoPlayerScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +10,8 @@ import 'DataBase.dart';
 import 'main.dart';
 
 void showQuiz(BuildContext context) {
-  Domanda _domanda = DataBase.Domande[0];
+  var _indice = Random().nextInt(DataBase.Domande.length);
+  Domanda _domanda = DataBase.Domande[_indice];
   showDialog<String>(
       context: context,
       builder: (BuildContext context) => Dialog(
@@ -53,29 +56,36 @@ class QuizState extends State<Quiz> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      //mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        SizedBox(height: 20),
-        Padding(
-            padding: EdgeInsets.only(left: 10, right: 10),
-            child: getBoxedText(widget._domanda.domanda, Colors.lightGreen,
-                TextStyle(fontWeight: FontWeight.bold))),
-        Formulario(
-          domanda: widget._domanda,
-        ),
-        Expanded(
-            child: Align(
-                alignment: Alignment.bottomCenter,
-                child: Padding( padding: EdgeInsets.only(bottom: 10),
-    child:ElevatedButton(
-                  child: Text('OK'),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                )))),
-      ],
-    );
+    return Container(
+        decoration: BoxDecoration(
+            image: DecorationImage(
+          image: AssetImage('assets/splash_screen.png'),
+          fit: BoxFit.cover,
+        )),
+        child: Column(
+          //mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            SizedBox(height: 20),
+            Padding(
+                padding: EdgeInsets.only(left: 10, right: 10),
+                child: getBoxedText(widget._domanda.domanda, Colors.lightGreen,
+                    TextStyle(fontWeight: FontWeight.bold))),
+            Formulario(
+              domanda: widget._domanda,
+            ),
+            Expanded(
+                child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Padding(
+                        padding: EdgeInsets.only(bottom: 10),
+                        child: ElevatedButton(
+                          child: Text('OK'),
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                        )))),
+          ],
+        ));
   }
 }
 
