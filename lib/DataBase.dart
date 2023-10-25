@@ -35,6 +35,11 @@ class DataBase {
   static List<String> Videos = [
     "assets/videos/video_1.mp4",
     "assets/videos/video_2.mp4",
+    "assets/videos/video_3.mp4",
+    "assets/videos/video_4.mp4",
+    "assets/videos/video_5.mp4",
+    "assets/videos/video_6.mp4",
+    "assets/videos/video_7.mp4",
   ];
 
   static init() async {
