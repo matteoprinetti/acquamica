@@ -31,8 +31,8 @@ class TutorialState extends State<Tutorial>
   "sensibilizzarvi a un utilizzo più consapevole dell’acqua.",
 
     "Cliccando sulle gocce presenti sulla mappa, verranno suggerite le fontanelle più vicine facilmente riconoscibili dalle foto. La tua ricerca sarà accompagnata da alcune peculiarità storiche sulle fontanelle, alcune curiosità sull’acqua e alcuni consigli per un suo corretto utilizzo.",
-    "L’app è stata creata dagli 'Ambasciatori dell’acqua', ovvero alcuni alunni delle classi 3F e 3G e Luca Prinetti (4D) a.s. 2023/2024 nell’ambito del progetto AcquaMica (Liceo G. D. Cassini Sanremo e #IoSonoAmbiente) con la prof.ssa Federica Siccardi, grazie al prezioso aiuto del tecnico informatico Matteo Prinetti.",
-    "Si ringrazia il Comune di Sanremo, l’assessore architetto Mauro Menozzi e l’assessore Mario Robaldo, e Rivieracqua S.p.a nella persona dell’ing. Paolo Ferrari. Si precisa che diverse fontanelle sono in fase di manutenzione per cui non è garantito l'approvvigionamento d’acqua."
+    "L’app è stata creata dagli 'Ambasciatori dell’acqua',gli alunni delle classi 3F e 3G e Luca Prinetti (4D) a.s. 2023/2024 nell’ambito del progetto AcquaMica (Liceo G. D. Cassini Sanremo e #IoSonoAmbiente) con il prezioso aiuto del tecnico informatico Matteo Prinetti.",
+    "Si ringrazia il Comune di Sanremo, l’assessore architetto Mauro Menozzi e il consigliere  Mario Robaldo, Rivieracqua S.p.a nella persona dell’ing. Paolo Ferrari. Si precisa che diverse fontanelle sono in fase di manutenzione per cui non è garantito l'approvvigionamento d’acqua."
   ];
 
   @override
@@ -111,9 +111,9 @@ class TutorialState extends State<Tutorial>
                     borderRadius: BorderRadius.circular(15.0),
                     side: BorderSide(color: Colors.grey, width: 5),
                   ),
-                  margin: EdgeInsets.all(16.0),
+                  margin: EdgeInsets.only(left:16,right:16,top:16,bottom:32),
                   child: Padding(
-                      padding: EdgeInsets.all(16.0),
+                      padding: EdgeInsets.only(left: 16,top: 16, right: 16, bottom: 16),
                       child: Text(
                               tutorialTexts[pagePosition],
                               style: getAppFont(),
