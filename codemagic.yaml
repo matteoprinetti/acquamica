@@ -150,7 +150,7 @@ workflows:
             CODE_SIGNING_ALLOWED=NO 
     artifacts:
       - /tmp/xcodebuild_logs/*.log
-      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/Products/Debug-iphonesimulator/*.app
       
   web-workflow:
     name: Web app workflow
