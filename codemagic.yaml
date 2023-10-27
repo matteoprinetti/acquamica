@@ -126,6 +126,9 @@ workflows:
       - name: Get Flutter packages
         script: |
           flutter packages pub get
+      - name: Flutter build ios
+        script: |
+          flutter build ios 
       - name: Install pods
         script: |
           find . -name "Podfile" -execdir pod install \;
