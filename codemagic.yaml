@@ -117,7 +117,7 @@ workflows:
       vars:
         XCODE_WORKSPACE: "Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
-      xcode: 13.0
+      xcode: latest
       cocoapods: default
     scripts:
       - name: Install CocoaPods dependencies
