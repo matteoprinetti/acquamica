@@ -114,7 +114,12 @@ workflows:
     name: iOS Emulator
     instance_type: mac_mini_m1
     environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.prinetti.acquamica
+      flutter: stable
       vars:
+        APP_ID: 6470613932 # <-- Put your APP ID here
         XCODE_WORKSPACE: "ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       xcode: latest
