@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'dart:developer' as developer;
 import 'package:csv/csv_settings_autodetection.dart' as csvAuto;
 
-var d = new FirstOccurrenceSettingsDetector(eols: ['\r\n', '\n']);
+const d = csvAuto.FirstOccurrenceSettingsDetector(eols: ['\r\n', '\n']);
  
 class Colonnina {
   int index;
@@ -56,7 +56,7 @@ class DataBase {
     int index = 1;
     for (final _fontanella in _listData) {
       //developer.log("Index " + index.toString()+ ":" + _fontanella[3].toString()
-      //    + ":" + _fontanella[4].toString());
+       //   + ":" + _fontanella[4].toString());
       Colonnina _colonnina = Colonnina(
         index,
         _fontanella[0],

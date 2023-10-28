@@ -270,11 +270,11 @@ class ApplicationState extends State<Application>
                       MarkerLayer(markers: getMarkers(_actualPosition))
                     ],
                   ),
-                  Positioned.fill(
+                  Positioned(
                       top: 10,
                       left: 10,
                       right: 10,
-                      bottom: MediaQuery.of(context).size.height - 120,
+                      //bottom: MediaQuery.of(context).size.height - 120,
                       child: TopCard()),
                   Positioned(
                       bottom: 10,

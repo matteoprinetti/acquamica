@@ -8,17 +8,9 @@ class TopCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Card(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-         /*   const ListTile(
-              leading: Icon(Icons.album),
-              title: Text('The Enchanted Nightingale'),
-              subtitle: Text('Music by Julie Gable. Lyrics by Sidney Stein.'),
-            ),*/
-            Row(
+    return
+       Card(
+        child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 TextButton(
@@ -30,11 +22,8 @@ class TopCard extends StatelessWidget {
                   child: const Icon(Icons.local_movies),
                   onPressed: () { showVideo(context);},
                 ),
-              ],
-            ),
           ],
-        ),
-      ),
+            ),
     );
   }
 }
