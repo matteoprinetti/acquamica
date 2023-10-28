@@ -1,7 +1,10 @@
 import 'package:csv/csv.dart';
 import 'package:flutter/services.dart';
 import 'dart:developer' as developer;
+import 'package:csv/csv_settings_autodetection.dart' as csvAuto;
 
+var d = new FirstOccurrenceSettingsDetector(eols: ['\r\n', '\n']);
+ 
 class Colonnina {
   int index;
   String zona;
@@ -48,7 +51,7 @@ class DataBase {
     var _fontanelleString =
         await rootBundle.loadString("assets/fontanelle.txt");
     List<List<dynamic>> _listData =
-        const CsvToListConverter(fieldDelimiter: ";").convert(_fontanelleString);
+        const CsvToListConverter(fieldDelimiter: ";",csvSettingsDetector: d).convert(_fontanelleString);
 
     int index = 1;
     for (final _fontanella in _listData) {
@@ -72,7 +75,7 @@ class DataBase {
 
     var _domandeString = await rootBundle.loadString("assets/domande.txt");
     List<List<dynamic>> _listDomande =
-        const CsvToListConverter(fieldDelimiter: ";").convert(_domandeString);
+        const CsvToListConverter(fieldDelimiter: ";",csvSettingsDetector: d).convert(_domandeString);
 
     index = 1;
     for (final _domandaRaw in _listDomande) {
